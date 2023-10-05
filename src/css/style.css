@@ -7,9 +7,10 @@
 
 body {
   height: 100vh;
-  background-color: #DBC2F5E6;
-  background-image:url(/home/tugi/elewa-website-html/src/assets/images/purple.jpg) ;
-}
+  background-color: #d7c2ede6;
+    
+   }
+   
   
 header {
   position: relative;
@@ -78,6 +79,14 @@ a {
   transition: scale 0.2 ease;
   text-align: center; 
 }
+.potential_btn{
+  background-color:#000000;
+  color:white;
+  font-size: 12px;
+  border-radius: 15px;
+  line-height: 22px;
+  padding: 5px 10px;
+}
 
 /*Dropdown menu*/
 .navbar_dropdown_menu {
@@ -128,6 +137,7 @@ a {
 .home-container{
   background-color: #DBC2F5E6;
   width: 100%;  
+  
 }
 
 .home_content{
@@ -136,7 +146,7 @@ a {
 }
 
 .home_content h1{
-  font-size: 28px;
+  font-size: 40px;
   color: black;
   line-height: 40px;
   text-align: left;
@@ -167,7 +177,7 @@ a {
 /* Style for the anchor */
 .home_contact {
   text-decoration: none;
-  color: #FFFFFF; /* Change the text color to black */
+  color: #DBC2F5E6; /* Change the text color to black */
   font-size: 16px; /* Adjust font size as needed */
   display: flex;
   background-color: #000000; /* Circular background color */
@@ -183,7 +193,7 @@ a {
   width: 25px; /* Adjust arrow size as needed */
   height: 20px; /* Adjust arrow size as needed */
   margin-left: 5px; /* Add space between text and arrow */
-  background-color: #FFFFFF;
+  background-color: #DBC2F5E6;
   border-radius: 50%; /* Make it circular */
 }
 
@@ -311,5 +321,7 @@ a {
   #home_img{
     max-height: 480px;
     max-width: 430px;
+    
   }
+ 
 }
