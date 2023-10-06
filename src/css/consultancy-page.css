@@ -229,7 +229,6 @@
         left: 40%;
         top: 300px;
     }
-  
     
   
     .navbar_dropdown_menu a {
@@ -268,6 +267,7 @@
   
     .home_content{
       padding: 0;
+      font-size: 36 ;
     }
   
     .home_content h1{
@@ -281,7 +281,7 @@
     }
   
     .home_img_section {
-        padding-left: 22%;
+        padding-left: 50%;
     }
   
     #home_img{
@@ -293,15 +293,18 @@
   
   @media only screen and (min-width: 900px) { 
     .home-container{
+      position: absolute;
       width: 80%;
       margin: 0 auto;
-      padding-top: 3%;
+      padding-top: -50%;
+      padding-left: 12%;
+      margin-inline: left;
     }
   
     .home_content{
       width: 50%;
       float: left;
-      margin-top: 12%;
+      margin-top: 15%;
       padding-right: 11%;
     }
   
@@ -316,7 +319,7 @@
     }
   
     .home_img_section{
-      padding: 2%;
+      padding: 3%;
       width: 50%;
       float: right;
     }
@@ -326,5 +329,37 @@
       max-width: 430px;
       
     }
-   
-  }
+    .custom-div1 {
+      size-adjust: 400px;
+      line-height: 10;
+      border-radius:60%;
+      margin-left: 400px;
+      padding:200px;
+      top: 229px;
+      left: 400px;
+      width: 400px;
+      height: 400px;
+      background: transparent linear-gradient(90deg, #DBC2F500 0%, #DBC2F5E6 100%) 0% 0% no-repeat padding-box;
+      mix-blend-mode: multiply;
+      opacity: 10;
+      /* Add any additional styles specific to this div */
+    }
+  .custom-div2 {
+    size-adjust: 400px;
+    line-height: 20;
+    border-radius: 60%;
+    margin-top: -400px;
+    margin-left: 500px;
+    padding:200px;
+    top: 229px;
+    left: 400px;
+    width: 400px;
+    height: 400px;
+    transform: matrix(-1, 0, 0, -1, 0, 0);
+     background: transparent linear-gradient(90deg, #DBC2F500 0%, #DBC2F5E6 100%) 0% 0% no-repeat padding-box;
+    mix-blend-mode: multiply;
+    opacity: 10;
+    /* Add any additional styles specific to this div */
+  
+}
+}
