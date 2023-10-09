@@ -9,12 +9,13 @@
     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
     crossorigin="anonymous" 
     referrerpolicy="no-referrer" />
+    <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap" rel="stylesheet">
+
   <title>Collaboration and Contribution</title>
- 
-  <link rel="stylesheet" href="../../css/consultancy-page.css">
+  <link rel="stylesheet" href="/src/css/style.css">
 
   <script defer type="module" src="dist\out-tsc\index.js"></script>
 </head>
@@ -48,47 +49,42 @@
       </div> 
     </header>
 
-    <!-- Home landing page -->
-    <div class="home-container">
-      <article class="home_content">
-        <h1>Learning design</h1>
-        <h2>Your organisation has the potential to turn every task into an opportunity to learn. From growing crops, to nursing someone to good health, to developing the next-generation technology. Let’s work together to make the magic happen.
-</h2>
-<a class="potential_btn" href="potential">Unlock your potential <i class="fa-solid fa-arrow-right fa-beat
-    " style="color: #ffffff;"></i></a>
-
- </article>  
-         <!-- image -->
-      <div class="home_img_section">
-        <img >
-       </div>        
-</div>
-<div class="circle">
-  <div class="custom-div1"></div>
-  <div class="custom-div2"></div>
-</div>
-
-
-<div class="background-container">
-    <img  >
-    <!-- Your content goes here -->
+    <!-- Home consultancy page -->
     
+    <div class="consultancy-container">
+      <article class="consultancy_content">
+        <h1>Learning design</h1>
+        <h2>Your organisation has the potential to turn every task into an opportunity to learn. From growing crops, to nursing someone to good health, to developing the next-generation technology. Let’s work together to make the magic happen.</h2>
+                <!-- button -->
+                <a href="#" class="home_contact">
+                  Unlock Your Potential 
+                  <span class="arrow-circle">
+                    <img src="https://res.cloudinary.com/dyl3rncv3/image/upload/v1695972080/elewa-education-website/Shared/toRightArrow_tlcdnk.svg" alt="Right Arrow">
+                  </span>
+                </a>
+      </article> 
+     
+
+    </div>
+    <div class="containerss">
+      <div class="circle_1"></div>
+      <div class="circle_2"></div>
+    </div>
+    
+
     <script>
       const toggleBtn = document.querySelector('.toggle_btn')
       const toggleBtnIcon = document.querySelector('.toggle_btn i')
       const dropDownMenu = document.querySelector('.navbar_dropdown_menu')
+
       toggleBtn.onclick = function () {
           dropDownMenu.classList.toggle('open')
           const isOpen = dropDownMenu.classList.contains('open')
 
           toggleBtnIcon.classList = isOpen ? 'fa-solid fa-xmark' : 'fa-solid fa-bars'
-         
       }
 
   </script>
 </body>
 
-
 </html>
-
-
